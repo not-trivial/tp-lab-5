@@ -4,8 +4,8 @@
 #include <ctime>
 #include <algorithm>
 #include <fstream>
-#include "Group.h"
 using namespace std;
+class Group;
 
 class Student {
 private:
