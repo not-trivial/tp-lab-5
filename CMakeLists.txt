@@ -26,7 +26,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_library(task_lib ${SRC_FILES})
 
-add_executable(task ${SRC_FILES1})
+add_executable(task ${SRC_FILES})
 
 #target_link_libraries(task task_lib)
 
