@@ -4,9 +4,9 @@
 #include <ctime>
 #include <algorithm>
 #include <fstream>
-#include "Student.h"
-#include "Group.h"
 using namespace std;
+class Student;
+class Group;
 
 class Deanery {
 public:
