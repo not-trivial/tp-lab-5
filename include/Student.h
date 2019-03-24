@@ -6,6 +6,7 @@
 #include <fstream>
 using namespace std;
 class Group;
+class Deanery;
 
 class Student {
 private:
