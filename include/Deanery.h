@@ -10,10 +10,10 @@
 using namespace std;
 
 class Deanery {
-public:
-	vector <Student*> students;
+private:
+vector <Student*> students;
 	vector <Group*> groups;
-	
+public:	
 	friend Student;
 	friend Group;
 	
