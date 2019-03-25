@@ -10,12 +10,11 @@ using namespace std;
 
 class Group {
 private:
-	int num;
-public:
 	string title;
 	vector <Student*> students;
 	Student* head;
-
+	int num;
+public:
 	friend Student;
 	friend Deanery;
 
