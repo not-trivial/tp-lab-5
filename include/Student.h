@@ -11,13 +11,12 @@ class Deanery;
 
 class Student {
 private:
-	int num;
-public:
 	int id;
 	string fio;
+	int num;
 	Group* group;
 	vector<int> marks;
-	
+public:
 	friend Group;
 	friend Deanery;
 
