@@ -11,7 +11,6 @@ void Group::add_Student(Student* student) {
 
 void Group::choose_head() {
 	int index_head;
-	srand(time(0));
 	index_head = rand() % (this->num - 1);
 	head = students[index_head];
 }
