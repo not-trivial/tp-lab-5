@@ -11,6 +11,7 @@ using namespace std;
 
 int main()
 {
+	srand(time(0));
 	Deanery exp;
 	string file1 = "../data/names.txt";
 	string file2 = "../data/titles.txt";
