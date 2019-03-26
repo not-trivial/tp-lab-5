@@ -11,12 +11,9 @@ using namespace std;
 
 class Deanery {
 private:
-vector <Student*> students;
+	vector <Student*> students;
 	vector <Group*> groups;
 public:	
-	friend Student;
-	friend Group;
-	
 	void create_students(string file_name);
 	void create_groups(string file_name);
 	void add_mark(int k);
